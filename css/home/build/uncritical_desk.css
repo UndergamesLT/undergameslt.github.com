@@ -2364,6 +2364,7 @@ span.plati {
 
 .certified-sellers {
     min-height: 180px;
+    max-width: 250px;
     padding: 0 39px 0 41px;
     background: #fff;
     display: flex;
