@@ -2368,7 +2368,7 @@ span.plati {
     background: #fff;
     display: flex;
     align-items: center;
-    width: calc(50% - 8px);
+    width: calc(50% - 200px);
     box-shadow: 0 6px 20px rgba(140, 124, 241, .13), 0 -10px 20px rgba(255, 255, 255, .4);
     border-radius: 16px;
     margin: 0 0 16px 16px
