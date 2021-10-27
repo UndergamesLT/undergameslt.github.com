@@ -1,0 +1,153 @@
+.page-404 {
+    background: url(/new/img/bg-404.jpg) no-repeat 50% 0;
+    background-size: cover;
+    min-height: calc(100vh - 199px);
+    padding-top: 105px;
+    position: relative;
+    padding-bottom: 130px;
+}
+
+.page-404:before {
+    content: "";
+    background: rgba(29, 32, 49, 0.8);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-404-text {
+    margin-bottom: 61px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.page-404-text .title {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+}
+
+.page-404-text img {
+    max-width: 687px;
+}
+
+.page-404-text {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page-block {
+    position: relative;
+}
+
+.page-404 .products-slider .slick-list:before {
+    display: none;
+}
+
+.block-products-slider .title {
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+}
+
+.products-slider {
+    margin-bottom: 24px;
+}
+
+.products-slider .slick-arrow {
+    top: 100%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 24px 0 0 35px;
+}
+
+.products-slider .slick-slide {
+    margin: 0 8px;
+}
+
+.products-slider .slick-prev {
+    margin-left: -35px;
+}
+
+.products-slider .slick-disabled {
+    display: block !important;
+    opacity: 0.4;
+}
+
+.btns-404 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-404 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18.0126px;
+    line-height: 140%;
+    text-align: center;
+    color: #6377E1;
+}
+
+.link-404 svg {
+    margin-left: 7px;
+}
+
+.link-404:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 992px) {
+    .page-404-text img {
+        width: 400px;
+        height: auto;
+    }
+    .page-404 {
+        padding: 30px 0;
+    }
+    .page-404-text .title {
+        font-size: 18px;
+    }
+    .page-404-text {
+        margin-bottom: 30px;
+    }
+    .block-products-slider .title {
+        font-size: 16px;
+    }
+    .link-404 {
+        display: none;
+    }
+    .btns-404 {
+        padding-top: 80px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 540px) {
+    .products-slider {
+        margin-right: -16px;
+    }
+    .products-slider .slick-arrow {
+        margin-left: 29px;
+    }
+    .products-slider .slick-prev {
+        margin-left: -42px;
+    }
+}
+
+@media(max-width: 520px) {
+    .page-404-text img {
+        width: 320px;
+    }
+}
